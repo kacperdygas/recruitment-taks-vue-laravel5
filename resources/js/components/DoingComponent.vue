@@ -22,7 +22,7 @@
                 if(this.index % 2 !== 0) {
                     this.class_name += 'yellow ';
                 } 
-                if(this.index % 3 === 0) {
+                if(this.index % 3 === 0 && this.index !== 0) {
                     this.class_name += 'green ';
                 }
                 if(this.index % 2 !== 0) {
